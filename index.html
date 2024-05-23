@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="intro-screen" class="intro-screen">
+        <button id="play-button" class="play-button">Reproducir Música</button>
+    </div>
+    <div class="video-background" style="display: none;">
+        <video id="background-video" loop muted>
+            <source src="Video/Megamente.mp4" type="video/mp4">
+            Tu navegador no soporta video HTML5.
+        </video>
+    </div>
+    <div class="overlay-text1" id="part1">
+        <span class="text" style="top: 10%; left: 20%;">"ur bad"</span>
+        <span class="text" style="top: 20%; left: 60%;">"bozo"</span>
+        <span class="text" style="top: 30%; left: 40%;">"loser"</span>
+        <span class="text" style="top: 40%; left: 10%;">"idiot"</span>
+        <span class="text" style="top: 50%; left: 70%;">"cope"</span>
+        <span class="text" style="top: 60%; left: 30%;">"ratio"</span>
+        <span class="text" style="top: 70%; left: 50%;">"nerd"</span>
+        <span class="text" style="top: 80%; left: 20%;">"cry about it"</span>
+    </div>
+    <div class="overlay-text" id="part2" style="display: none;">
+        <span class="info-text" id="info1"></span>
+        <span class="info-text" id="info2"></span>
+        <span class="info-text" id="info3"></span>
+        <span class="info-text" id="info4"></span>
+        <span class="info-text" id="info5"></span>
+        <span class="info-text" id="info6"></span>
+        <span class="info-text" id="info7"></span>
+    </div>
+    <div class="overlay-text" id="part3" style="display: none;">
+        <span class="info-text" id="info8"></span>
+        <span class="info-text" id="info9"></span>
+        <span class="info-text" id="info10"></span>
+        <span class="info-text" id="info11"></span>
+        <span class="info-text" id="info12"></span>
+        <span class="info-text" id="info13"></span>
+        <span class="info-text" id="info14"></span>
+        <span class="info-text" id="info15"></span>
+        <span class="info-text" id="info16"></span>
+        <span class="info-text" id="info17"></span>
+        <span class="info-text" id="info18"></span>
+        <span class="info-text" id="info19"></span>
+        <span class="info-text" id="info20"></span>
+        <span class="info-text" id="info21"></span>
+        <span class="info-text" id="info22"></span>
+        <span class="info-text" id="info23"></span>
+        <span class="info-text" id="info24"></span>
+        <span class="info-text" id="info25"></span>
+        <span class="info-text" id="info26"></span>
+        <span class="info-text" id="info27"></span>
+        <span class="info-text" id="info28"></span>
+        <span class="info-text" id="info29"></span>
+    </div>
+    <div id="map-container" class="center" style="display: flex;">
+        <iframe id="map-iframe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <audio id="background-audio" loop>
+        <source src="Sonido/Sonido.mp3" type="audio/mp3">
+        Tu navegador no soporta audio HTML5.
+    </audio>
+    <script src="script.js"></script>
+</body>
+</html>
